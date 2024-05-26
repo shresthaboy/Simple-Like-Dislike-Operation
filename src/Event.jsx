@@ -10,7 +10,7 @@ const Event = () => {
     if (liked == true) {
       increasedbyone();
     } else {
-      decreasedbyone();
+      decreasedbyone();                           
     }
     setMessage(!liked); // toggle between true and false
   };
