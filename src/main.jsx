@@ -1,9 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import Event from './Event.jsx'
-import Forms from './forms.jsx'
-import Assignment from './Assignment.jsx'
+
+import Task from './task-complex-state/task.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -11,6 +9,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <App />
     <Event /> */}
     {/* <Forms/> */}
-    <Assignment/>
+    {/* <Assignment/> */}
+
+    <Task/>
   </React.StrictMode>,
 )
